@@ -1,0 +1,50 @@
+body{
+    /* background:rgb(199, 212, 247); */
+    background-image: url(https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width:100vw;
+    height:100vw;
+    margin: 0 0 0 0 !important;
+}
+
+#navbar{
+    color: black; 
+    background: white;
+}
+#navbar a{
+    text-decoration: none;
+
+}
+/*br doesnt have a closing tag
+&nbsp non breaking space*/
+
+#heading{
+    font-size: 3em;
+}
+
+/* em is original size  */
+/* specific is priority so id > class > element 
+but cascading style worksheet so w/e is the bottom is priority*/
+
+#days1{
+    font-size: 2em;
+}
+#temple{
+    width: 50vw;
+}
+
+
+
+/* vw is view window  */
+/* blocks take up a whole line*/ 
+/* inline can share elements on the same line, changes size
+to size accordingly*/
+/* inlineblock can do both adjust width and also takes up only
+what it needs but does not take up
+whole line. width: 50% of WHOLE line*/
+/*absolute moves image relative to the biggest container
+relative is move image to its original position*/
+/* to comment command + slash */
