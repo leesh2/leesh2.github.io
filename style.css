@@ -48,3 +48,14 @@ whole line. width: 50% of WHOLE line*/
 /*absolute moves image relative to the biggest container
 relative is move image to its original position*/
 /* to comment command + slash */
+/* position:relative left:25% (from the left not to the left
+means 1/4 of hte parent box (one box bigger) */
+/* if there is no parentbox (with poisiton: relative) 
+for absolute positioning it will move according to the 
+viewpoint (ur screen) */
+/* the higher the z-index the more forward it will be 
+(its like layers not that it moves foward) */
+
+/* .navbar{
+    background:blue !important;
+} */
