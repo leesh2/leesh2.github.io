@@ -59,3 +59,33 @@ viewpoint (ur screen) */
 /* .navbar{
     background:blue !important;
 } */
+
+html,body{
+    width:100%;
+    height:100%;
+    /* text-align:center; */
+}
+
+#bg{
+    position: absolute;
+    height:100vw;
+    width:100vh;
+    background-image:url("images/cloud");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#main_content{
+    position: relative;
+    text-align: center;
+    color:black;
+    top:50
+}
+
+.tint{
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.3);
+}
