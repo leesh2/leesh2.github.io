@@ -23,6 +23,7 @@ body{
 
 #heading{
     font-size: 3em;
+    font-family: 'Abel'
 }
 
 /* em is original size  */
@@ -83,9 +84,14 @@ html,body{
     top:50
 }
 
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: .5rem;
+}
 .tint{
     position: absolute;
     width:100vw;
     height: 100vh;
     background:rgba(0, 0, 0, 0.3);
 }
+
